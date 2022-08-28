@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Geostar', cursive;
+}
+
+.container {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.picture {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    border: 5px solid grey;
+}
+
+img {
+    max-width: 100%;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    border: 2px solid grey;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid grey;
+}
+
+span {
+    font-size: 3rem;
+}
+
+p {
+    font-weight: bold;
+}
+
+#playto {
+    font-family: 'Geostar', cursive;
+    font-size: 1rem;
+}
+
+label {
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    border: 2px solid grey;
+    padding: 1rem;
+}
+
+#player1 {
+    padding: 1.5rem;
+    background-color: blue;
+    border-radius: 1rem;
+    border-color: blue;
+    color: white;
+    cursor: pointer;
+    font-family: 'Geostar', cursive;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+#player2 {
+    padding: 1.5rem;
+    background-color: red;
+    border-radius: 1rem;
+    border-color: red;
+    color: white;
+    cursor: pointer;
+    font-family: 'Geostar', cursive;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+#reset {
+    padding: 1.5rem;
+    background-color: grey;
+    border-radius: 1rem;
+    border-color: grey;
+    color: white;
+    cursor: pointer;
+    font-family: 'Geostar', cursive;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    margin-top: 2rem;
+    padding-bottom: 1.3rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+a:visited {
+    color: inherit;
+}
+
+@media (max-width: 1400px) and (min-width: 360px) {
+    h1 {
+        font-size: 1rem;
+        text-align: center;
+    }
+    #score1, #score2 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    p {
+        font-size: 1rem;
+        text-align: center;
+    }
+    label {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .buttons {
+        flex-direction: column;
+    }
+    #player1 {
+        padding-left: 0.2rem;
+        padding-right: 0.2rem;
+    }
+    #player2 {
+        padding-left: 0.2rem;
+        padding-right: 0.2rem;
+    }
+    #reset {
+        padding-left: 0.2rem;
+        padding-right: 0.2rem;
+    }
+    span:nth-child(2) {
+        font-size: 1rem;
+    }
+}

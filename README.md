@@ -1,1 +1,1 @@
-# score-counter
+Score counter made with JavaScript.
